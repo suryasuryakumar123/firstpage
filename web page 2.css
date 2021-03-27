@@ -1,0 +1,187 @@
+header
+{
+	padding: 20px;
+	background: linear-gradient(45deg,red,green,blue);
+	border-radius: 25px;
+	color: white;
+	text-align: center;
+	top: 0px;
+}
+nav
+{
+	padding: 10px;
+	background: linear-gradient(45deg,yellow,blue,pink,violet,orange);
+	border-radius: 25px;
+	top: 115px;
+
+}
+body nav a
+{
+	padding: 5px;
+	margin:0px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 50px;
+	/*display: flex;*/
+}
+article
+{
+	display: inline-block;
+	width: 350px;
+	height: 600px;
+	border: 3px solid red;
+}
+#a,#b,#c
+{
+	margin-left: 40px;
+}
+article img
+{
+	margin: 20px;
+	width: 320px;
+	height: 350px;
+	text-align: center;
+
+}
+#Home
+{
+	width: 100%;
+	background: linear-gradient(45deg,orange,cyan,aqua,green);
+	text-align: justify-all;
+	margin-top: 10px;
+	height: 1150px;
+}
+article h2
+{
+	text-align: center;
+}
+article p
+{
+	text-align: justify;
+	text-indent: 50px;
+}
+#News
+{
+	width: 100%;
+	background: linear-gradient(45deg,blue,green,yellow);
+	text-align: justify-all;
+	margin-top: 10px;
+	height: 1200px;
+}
+article figure img
+{
+	margin: 50px 400px ;
+}
+#About
+{
+	width: 100%;
+	background: linear-gradient(45deg,blue,green,yellow);
+	text-align: justify-all;
+	margin-top: 10px;
+	height: 460px;
+}
+#Gallery
+{
+	width: 100%;
+	background: linear-gradient(45deg,blue,green,yellow);
+	text-align: justify-all;
+	margin-top: 10px;
+	height: 1960px;
+}
+article figure img
+{
+	width: 300px;
+	height: 300px;
+	margin: 10px 50px 20px 50px;
+	display: inline-block;
+}
+#Contact
+{
+	width: 100%;
+	background: linear-gradient(45deg,blue,green,yellow);
+	text-align: justify-all;
+	margin-top: 10px;
+	height: 600px;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+article figure
+{
+	margin: auto;
+	margin: 100px auto;
+}
+table,td
+{
+	border-spacing: 30px;
+}
+table
+{
+	text-align: center;
+	margin: auto;
+}
+#figure
+{
+	margin: auto;
+}
+section
+{
+	margin: 20px;
+	background: linear-gradient(45deg,orange,green,blue);
+	border-radius: 25px;
+}
+nav:hover
+{
+	background:linear-gradient(45deg,orange,green,blue);
+}
+nav a:hover
+{
+	background:linear-gradient(45deg,blue,aqua,cyan,pink,violet,red,orange);
+	border-radius: 10px;
+	color: black;
+}
+article:hover
+{
+	background:linear-gradient(135deg,grey,brown,yellow,skyblue,lime,red);
+}
+article img:hover
+{
+	transform: scale(1.2,1.2);
+}
+article
+{
+	overflow: hidden;
+}
+figure img:hover
+{
+	transform: scale(1.0,1.0);
+	transform: perspective(700px) rotateY(30deg);
+}
+figure img
+{
+	transition: all 1s linear;
+}
+@media 
+{
+	body header (min-width: 0px) and (max-width: 700px)
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	/*body nav (min-width: 0px) and (max-width: 700px)
+	{
+		display: block;
+		flex-direction: column;
+		width: 100%;
+	}*/
+	body nav a (min-width: 701px) and (max-width: 1240px)
+	{
+		
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		
+	}
+}
